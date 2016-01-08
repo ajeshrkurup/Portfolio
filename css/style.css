@@ -1,0 +1,186 @@
+body, div, header, nav, section, ul, li, img, h2, form, input, label, a, aside {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 70px;
+	width: 100%;
+	background-color: #1a0000;
+}
+
+#main_link {
+	margin-left: 30%;
+	padding: 20px;
+	float: left;
+}
+#main_link ul li {
+	color: white;
+	font-weight: bold;
+	display: inline;
+	padding: 12px;
+	font-size: 18px;
+}
+
+#main_link ul li:hover {
+	background-color: grey;
+}
+
+#social {
+	float: right;
+	padding: 17px;
+	margin-right: 10%;
+
+}
+
+#social img {
+	height: 30px;
+	width: 30px;
+	background-color: #ff9933;
+
+}
+
+#social ul li {
+	display: inline;
+	padding: 12px;	
+}
+
+#section1 {
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 18px;	
+}
+
+#section2 ul {
+	float: left;
+	padding: 20px;
+	list-style: none;
+
+}
+
+#section2 ul li {
+	padding: 10px 0 30px 30px;
+	margin: 10px 0 30px 30px;
+}
+
+#section2 ul img {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+
+}
+
+#section2 a {
+	text-decoration: none;
+}
+
+#section2 p {
+	display: inline;
+	margin-left: 60px;
+	position: absolute;
+	margin-top: 11px;
+	font-size: 18px;
+
+}
+
+aside img{
+	height: 400px;
+	width: 340px;
+	float: right;
+	margin-right: 200px; 
+	margin-bottom: 20px;
+	padding-bottom: 20px;	
+}
+
+.reset {
+	clear: both;
+}
+
+#bottom_section {
+	background-color: #f2f2f2
+
+}
+#section3 h2{
+	padding-top: 20px;
+	margin: 5px 0 0px 50px;
+}
+
+#section3 p{
+	margin: 5px 0 5px 55px;
+	padding: 5px;
+	color: blue;
+	letter-spacing: 2px;
+}
+#section3 {
+	float: 
+}
+#section4 h2 {
+	margin: 55px 0 5px 50px;
+}
+
+#section4 form{
+	margin: 5px 0 5px 55px;
+	padding-bottom: 30px;
+
+}
+
+#section4 label{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	letter-spacing: 2px;	
+}
+
+#section4 input, textarea {
+	width: 400px;
+	height: 25px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 3px;
+	font-size: 0.9em;
+	color: #3a3a3a;
+}
+
+
+#section4 textarea {
+	height: 70px;
+}
+
+#section4 input:focus, textarea:focus {
+	border: 1px solid #97d6eb;
+}
+
+
+#submit { 
+	display: block;
+	width: 127px !important;
+	height: 50px !important;
+	margin: 30px 0 10px 300px !important;
+	cursor: pointer;
+	background-color: #666666;
+	font-weight: bold;
+	font-size: 17px !important;
+	color: White !important;
+}
+
+#submit:hover {
+	opacity: .9;
+}
+
+#location {
+	
+	height: 400px;
+	width: 600px;
+	background-color: #ccc;
+	float: right;
+	margin: 0 100px 0 0;
+
+}
+
+footer {
+	height: 70px;
+	width: 100%;
+	background-color: #1a0000;
+}
+

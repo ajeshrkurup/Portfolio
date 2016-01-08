@@ -1,0 +1,79 @@
+body, div, header, nav, section, ul, li, img, h2, form, input, label, a, aside {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 70px;
+	width: 100%;
+	background-color: #1a0000;
+}
+
+#main_link {
+	margin-left: 30%;
+	padding: 20px;
+	float: left;
+}
+#main_link ul li {
+	color: white;
+	font-weight: bold;
+	display: inline;
+	padding: 12px;
+	font-size: 18px;
+}
+
+#main_link ul li:hover {
+	background-color: grey;
+}
+
+#social {
+	float: right;
+	padding: 17px;
+	margin-right: 10%;
+
+}
+
+#social img {
+	height: 30px;
+	width: 30px;
+	background-color: #ff9933;
+
+}
+
+#social ul li {
+	display: inline;
+	padding: 12px;	
+}
+
+#section1 {
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 20px;	
+}
+
+#section2 {
+	margin: 50px;
+}
+
+#section2 ul {
+	margin: 50px auto 50px auto;
+}
+
+#section2 ul li {
+	display: inline;
+	margin: 20px;
+}
+
+#section2 ul li:hover {
+	opacity: 0.6;
+}
+
+#section2 img {
+	height: 200px;
+	width: 320px;
+}
+footer {
+	height: 70px;
+	width: 100%;
+	background-color: #1a0000;
+}
